@@ -97,7 +97,7 @@ placement */
     top: 72px;
 } */
 .custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
-    opacity: 1;
+    opacity: 1 !important;
 }
 .custom .bumper.left{
   /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
@@ -128,18 +128,18 @@ placement */
 quandrants on the xbox controller. That's note what it's called on the
 PS3 controller but it'd be pointless for me to change the HTML for
 something as pedantic as a name. */
-.custom .quadrant{
+/* .custom .quadrant{
     position: absolute;
     background: url(ps3-assets/player-n.png);
     height: 17px;
     width: 111px;
     top: 140px;
     left: 240px;
-}
+} */
 /* Since the player indicator is just a CSS sprite, we change the
 position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0{
+/* .custom .p0{
     background-position: 0 -6px;
 }
 .custom .p1{
@@ -150,27 +150,41 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 }
 .custom .p3{
     background-position: 0 -70px;
-}
+} */
 /* This is to size and position the containing div for the
 start and select buttons. */
-.custom .arrows{
+/* .custom .arrows{
     position: absolute;
     width: 205px;
     height: 19px;
     top: 250px;
     left: 291px;
-}
+} */
 /* Setting the size and CSS sprite for the start adn select buttons */
-.custom .back, .custom .start{
-    background: url(ps3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+.custom .start{
+    background: url(https://imgur.com/RbidzDk.png);
+    width: 56px;
+    height: 69px;
+    position:absolute;
+    left: 326px;
+    top: 70px;
+    opacity: 0;
+}
+.custom .back {
+  background: url(https://imgur.com/iVlm6J8.png);
+  width: 56px;
+  height: 69px;
+  position:absolute;
+  left: 90px;
+  top: 70px;
+  opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
-    background-position-y: -21px;
-    margin-top: 2px;
+    /* background-position-y: -21px;
+    margin-top: 2px; */
+    opacity: 1 !important;
 }
-.custom .back{
+/* .custom .back{
     float: left;
     width: 38px;
 }
@@ -178,7 +192,7 @@ start and select buttons. */
     float: right;
     width: 36px;
     background-position: 37px 0;
-}
+} */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
