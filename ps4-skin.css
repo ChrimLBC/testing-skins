@@ -300,29 +300,29 @@ the CSS inline. */
 .custom .face.up{
   background: url(https://imgur.com/wnXaSe7.png);
   position:absolute;
-  left: 37px;
-  top: 97px;
+  left: 26px;
+  top: 98px;
   opacity: 0;
 }
 .custom .face.down{
   background: url(https://imgur.com/YP8o2Zt.png);
   position:absolute;
-  left: 37px;
-  top: 149px;
+  left: 26px;
+  top: 150px;
   opacity: 0;
 }
 .custom .face.left{
   background: url(https://imgur.com/HwcQ2kE.png);
   position:absolute;
   left: -3px;
-  top: 127px;
+  top: 128px;
   opacity: 0;
 }
 .custom .face.right{
   background: url(https://imgur.com/G26fioe.png);
   position:absolute;
   left: 49px;
-  top: 127px;
+  top: 128px;
   opacity: 0;
 }
 .custom .face.pressed{
@@ -333,8 +333,8 @@ the CSS inline. */
   width: 36px;
   height: 36px;
   position:absolute;
-  left: 203px;
-  top: 207px;
+  left: 216px;
+  top: 221px;
   opacity: 0;
 }
 
