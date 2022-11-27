@@ -49,17 +49,18 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 } */
 /* The triggers are housed inside a div, so this sizes the div properly and positions it */
 /* .custom .triggers{
-    width: 586px;
-    height: 65px;
+    width: 480px;
+    height: 295px;
     position: absolute;
-    left: 99px;
+    left: 0px;
+    top: 0px;
 } */
 .custom .trigger.left{/* These are the actual triggers themselves */
     width:99px;
     height:95px;
     position:absolute;
-    left: 16px;
-    top: 17px;
+    left: 0px;
+    top: 0px;
     background: url(https://imgur.com/FBgSOoe.png);
     opacity: 0;
 }
@@ -68,8 +69,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width:98px;
     height:95px;
     position:absolute;
-    left: 401px;
-    top: 17px;
+    left: 385px;
+    top: 0px;
     background: url(https://imgur.com/6LEHp0z.png);
     opacity: 0;
 }
