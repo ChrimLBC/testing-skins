@@ -190,7 +190,7 @@ start and select buttons. */
   width: 216px;
   height: 137px;
   position:absolute;
-  left: 129px;
+  left: 127px;
   top: 56px;
   opacity: 0;
 }
@@ -227,7 +227,7 @@ start and select buttons. */
 }
 .custom .a{
     background: url(https://imgur.com/znSHv2v.png);
-    left: 369px;
+    left: 370px;
     top: 164px;
 }
 .custom .b{
@@ -238,7 +238,7 @@ start and select buttons. */
 .custom .y{
   background: url(https://imgur.com/rxPLwsL.png);
   top: 81px;
-  left: 369px;
+  left: 370px;
 }
 .custom .x{
   background: url(https://imgur.com/xUAOe5H.png);
@@ -278,48 +278,68 @@ the CSS inline. */
     left: 271px;
 }
 /* Dpad possitioning and sizing */
-.custom .dpad{
+/* .custom .dpad{
     position: absolute;
     width: 140px;
     height: 132px;
     top: 192px;
     left: 74px;
-}
-.custom .face{
+} */
+/* .custom .face{
     background: url(ps3-assets/dpad.png);
     position: absolute;
-}
+} */
 .custom .face.up, .custom .face.down{
-    width: 38px;
-    height: 52px;
+    width: 68px;
+    height: 74px;
 }
 .custom .face.left, .custom .face.right{
-    width: 52px;
-    height: 38px;
+    width: 74px;
+    height: 67px;
 }
 .custom .face.up{
-    left: 50px;
-    top: 0;
-    background-position: 92px 0px;
+  background: url(https://imgur.com/wnXaSe7.png);
+  position:absolute;
+  left: 37px;
+  top: 97px;
+  opacity: 0;
 }
 .custom .face.down{
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
+  background: url(https://imgur.com/YP8o2Zt.png);
+  position:absolute;
+  left: 37px;
+  top: 149px;
+  opacity: 0;
 }
 .custom .face.left{
-    top: 47px;
-    left: 0;
-    background-position: 0px 0;
+  background: url(https://imgur.com/HwcQ2kE.png);
+  position:absolute;
+  left: -3px;
+  top: 127px;
+  opacity: 0;
 }
 .custom .face.right{
-    top: 47px;
-    right: 0px;
-    background-position: 53px 0;
+  background: url(https://imgur.com/G26fioe.png);
+  position:absolute;
+  left: 49px;
+  top: 127px;
+  opacity: 0;
 }
 .custom .face.pressed{
-    margin-top: 5px;
-    background-position-y: 52px;
+    opacity: 1 !important;
+}
+.custom .meta {
+  background: url(https://imgur.com/JqYFLwX.png);
+  width: 36px;
+  height: 36px;
+  position:absolute;
+  left: 203px;
+  top: 207px;
+  opacity: 0;
+}
+
+.custom .meta.pressed{
+    opacity: 1 !important;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have
