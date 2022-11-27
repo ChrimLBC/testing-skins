@@ -13,13 +13,13 @@ direct link for the file by copying the link address on the
 NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
 It doesn't matter what you call it, so long as it ends in .css
 else the site won't read it and think it's just a plain text.
-Each CSS entry must be preceded by '.custom' since that's the 
-hardcoded class for a custom style. It doesn't make sense to 
+Each CSS entry must be preceded by '.custom' since that's the
+hardcoded class for a custom style. It doesn't make sense to
 change this as you can only have one custom skin loaded at a time.
 If you're using images, they have to be uploaded to an image host of
 your choice. Personally, I'd go with Imgur since it's simple to upload
 and get the direct URL of the image. None of the images in this example
-will load because they're pointing to a location relative of the css 
+will load because they're pointing to a location relative of the css
 files, since this is normally in the main CSS file of the site.
 The following is a copy of the code used for displaying the PS3 controller
 skin on the Gamepad viewer. You can scroll below and read the comments to
@@ -31,24 +31,24 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    /* The background image is basically the base for the controller's skin. The 
+    /* The background image is basically the base for the controller's skin. The
     PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
-    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://i.imgur.com/D7mnxyb.png); 
+    The entirity of the skin's visual styling is done via background images and CSS sprites. */
+    background: url(https://i.imgur.com/D7mnxyb.png);
     height: 274px;
     width: 453px;
 }
 /* .custom.disconnected { /* This class shows an image when the controller is disconnected */
     /* background: url(ps3-assets/base-disconnect.png); */
 /* } */
-/* This hides the controller's button when disconnected so only the background image remains */ 
+/* This hides the controller's button when disconnected so only the background image remains */
 /* .custom.disconnected div {
     display: none;
 } */
 /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-/* .custom .triggers{ 
+/* .custom .triggers{
     width: 586px;
     height: 65px;
     position: absolute;
@@ -60,7 +60,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     position:absolute;
     left: 16px;
     top: 17px;
-    background: url(https://imgur.com/FBgSOoe);
+    background: url(https://imgur.com/FBgSOoe.png);
     opacity: 0;
 }
 }
@@ -70,14 +70,14 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     position:absolute;
     left: 401px;
     top: 17px;
-    background: url(https://imgur.com/6LEHp0z);
+    background: url(https://imgur.com/6LEHp0z.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
+to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
-/* 
+/*
  */
 
 /* The bumpers follow the same methodology as the triggers in terms of
@@ -112,7 +112,7 @@ placement */
 }
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
-PS3 controller but it'd be pointless for me to change the HTML for 
+PS3 controller but it'd be pointless for me to change the HTML for
 something as pedantic as a name. */
 .custom .quadrant{
     position: absolute;
@@ -122,7 +122,7 @@ something as pedantic as a name. */
     top: 140px;
     left: 240px;
 }
-/* Since the player indicator is just a CSS sprite, we change the 
+/* Since the player indicator is just a CSS sprite, we change the
 position of the background to match the player number.
 NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .p0{
@@ -137,7 +137,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .p3{
     background-position: 0 -70px;
 }
-/* This is to size and position the containing div for the 
+/* This is to size and position the containing div for the
 start and select buttons. */
 .custom .arrows{
     position: absolute;
@@ -203,7 +203,7 @@ start and select buttons. */
     left: 71px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
+Note that the rotation of the sticks in hard coded with javascript, so it applies
 the CSS inline. */
 .custom .sticks{
     position: absolute;
@@ -277,25 +277,25 @@ the CSS inline. */
     background-position-y: 52px;
 }
 /* The following entries are empty because I haven't used them yet, but they
-exist for the purpose of displaying a fightstick. Since fightsticks have 
-the left and right triggers and digital buttons, there are separate 
+exist for the purpose of displaying a fightstick. Since fightsticks have
+the left and right triggers and digital buttons, there are separate
 html items that allow the triggers to be shown as button presses isntead of
 an opacity setting */
 .custom .trigger-button.left{
-    
+
 }
 .custom .trigger-button.right{
-    
+
 }
 .custom .trigger-button.left.pressed{
-    
+
 }
 .custom .trigger-button.right.pressed{
-    
+
 }
-/* This is where the fight stick CSS would go. The ideal way of 
+/* This is where the fight stick CSS would go. The ideal way of
 showing the input would be to use an image sprite of a fight stick in
-all 8 positions, and change it according to the inputs. The classes 
+all 8 positions, and change it according to the inputs. The classes
 themselves are fairly self explanatory. */
 .fstick{
     position: absolute;
@@ -305,28 +305,28 @@ themselves are fairly self explanatory. */
     left: 74px;
 }
 .fstick.up{
-  
+
 }
 .fstick.down{
-  
+
 }
 .fstick.left{
-  
+
 }
 .fstick.right{
-  
+
 }
 .fstick.up.right{
-  
+
 }
 .fstick.up.left{
-  
+
 }
 .fstick.down.right{
-  
+
 }
 .fstick.down.left{
-  
+
 }
 
 /*END PS3 Controller Styling*/
