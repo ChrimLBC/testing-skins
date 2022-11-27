@@ -36,9 +36,9 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */
-    background: url(https://i.imgur.com/D7mnxyb.png);
-    height: 274px;
-    width: 453px;
+    background: url(https://imgur.com/FBgzhX3.png);
+    height: 295px;
+    width: 480px;
 }
 /* .custom.disconnected { /* This class shows an image when the controller is disconnected */
     /* background: url(ps3-assets/base-disconnect.png); */
@@ -63,7 +63,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(https://imgur.com/FBgSOoe.png);
     opacity: 0;
 }
-}
+
 .custom .trigger.right{/* These are the actual triggers themselves */
     width:98px;
     height:95px;
