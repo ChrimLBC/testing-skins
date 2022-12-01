@@ -330,11 +330,11 @@ the CSS inline. */
 }
 .custom .meta {
   background: url(https://imgur.com/rG9Gbm6.png);
-  width: 36px;
-  height: 36px;
+  width: 66px;
+  height: 66px;
   position:absolute;
-  left: 216px;
-  top: 221px;
+  left: 202px;
+  top: 207px;
   opacity: 0;
 }
 
