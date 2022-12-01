@@ -269,12 +269,12 @@ the CSS inline. */
 }
 .custom .stick.left{
   background: url(https://imgur.com/Tr4f46C.png);
-    top: 185px;
-    left: 95px;
+    top: 186px;
+    left: 94px;
 }
 .custom .stick.right{
   background: url(https://imgur.com/6RZjczD.png);
-    top: 185px;
+    top: 186px;
     left: 271px;
 }
 /* Dpad possitioning and sizing */
