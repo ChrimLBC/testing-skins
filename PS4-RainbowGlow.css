@@ -36,7 +36,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */
-    background: url(https://imgur.com/FBgzhX3.png);
+    background: url(https://imgur.com/mqpQ3jf.png);
     height: 295px;
     width: 480px;
 }
@@ -226,22 +226,22 @@ start and select buttons. */
     opacity: 1 !important;
 }
 .custom .a{
-    background: url(https://imgur.com/znSHv2v.png);
+    background: url(https://imgur.com/FlNORxf.png);
     left: 370px;
     top: 164px;
 }
 .custom .b{
-    background: url(https://imgur.com/uwvdtJt.png);
+    background: url(https://imgur.com/9lVxzgs.png);
     top: 124px;
     left: 410px;
 }
 .custom .y{
-  background: url(https://imgur.com/rxPLwsL.png);
+  background: url(https://imgur.com/bPLNe3g.png);
   top: 81px;
   left: 370px;
 }
 .custom .x{
-  background: url(https://imgur.com/xUAOe5H.png);
+  background: url(https://imgur.com/f6SIXNO.png);
   top: 124px;
   left: 328px;
 }
@@ -261,19 +261,19 @@ the CSS inline. */
     height:102px;
     width: 102px;
 }
-/* .custom .stick.pressed.left{
-    background-position-x: -106px;
+.custom .stick.pressed.left{
+    background: url(https://imgur.com/e200Rwp.png);
 }
 .custom .stick.pressed.right{
-    background-position-x: -211px;
-} */
+    background: url(https://imgur.com/RinbAd1.png);
+}
 .custom .stick.left{
-  background: url(https://imgur.com/TesgWii.png);
+  background: url(https://imgur.com/bT6tNn9.png);
     top: 185px;
     left: 95px;
 }
 .custom .stick.right{
-  background: url(https://imgur.com/XZX9pNl.png);
+  background: url(https://imgur.com/mrOGQ9M.png);
     top: 185px;
     left: 271px;
 }
@@ -329,7 +329,7 @@ the CSS inline. */
     opacity: 1 !important;
 }
 .custom .meta {
-  background: url(https://imgur.com/JqYFLwX.png);
+  background: url(https://imgur.com/rG9Gbm6.png);
   width: 36px;
   height: 36px;
   position:absolute;
