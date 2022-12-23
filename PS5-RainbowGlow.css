@@ -59,8 +59,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width:99px;
     height:95px;
     position:absolute;
-    left: -1px;
-    top: 0px;
+    left: -7px;
+    top: 13px;
     background: url(https://imgur.com/f9eXmMS.png);
     opacity: 0;
 }
@@ -69,8 +69,8 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     width:98px;
     height:95px;
     position:absolute;
-    left: 384px;
-    top: 0px;
+    left: 377px;
+    top: 14px;
     background: url(https://imgur.com/gerloOk.png);
     opacity: 0;
 }
@@ -110,8 +110,8 @@ placement */
     width:106px;
     height:73px;
     position:absolute;
-    left: 84px;
-    top: 0px;
+    left: 76px;
+    top: -5px;
     background: url(https://imgur.com/W61MATn.png);
     opacity: 0;
 }
@@ -119,8 +119,8 @@ placement */
   width:106px;
   height:73px;
   position:absolute;
-  left: 290px;
-  top: 0px;
+  left: 288px;
+  top: -5px;
   background: url(https://imgur.com/PYCh8Xq.png);
   opacity: 0;
 }
@@ -166,7 +166,7 @@ start and select buttons. */
     width: 56px;
     height: 69px;
     position:absolute;
-    left: 325px;
+    left: 334px;
     top: 70px;
     opacity: 0;
 }
@@ -175,7 +175,7 @@ start and select buttons. */
   width: 56px;
   height: 69px;
   position:absolute;
-  left: 90px;
+  left: 76px;
   top: 70px;
   opacity: 0;
 }
@@ -190,7 +190,7 @@ start and select buttons. */
   width: 216px;
   height: 137px;
   position:absolute;
-  left: 127px;
+  left: 119px;
   top: 56px;
   opacity: 0;
 }
@@ -228,22 +228,22 @@ start and select buttons. */
 .custom .a{
     background: url(https://imgur.com/eknEKeX.png);
     left: 370px;
-    top: 164px;
+    top: 172px;
 }
 .custom .b{
     background: url(https://imgur.com/qPwUY5r.png);
-    top: 124px;
-    left: 410px;
+    top: 129px;
+    left: 411px;
 }
 .custom .y{
   background: url(https://imgur.com/vM16UpF.png);
-  top: 81px;
+  top: 87px;
   left: 370px;
 }
 .custom .x{
   background: url(https://imgur.com/CToWOAL.png);
-  top: 124px;
-  left: 328px;
+  top: 129px;
+  left: 330px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies
@@ -258,8 +258,8 @@ the CSS inline. */
 .custom .stick{
     position: absolute;
 
-    height:102px;
-    width: 102px;
+    height:90px;
+    width: 90px;
 }
 .custom .stick.pressed.left{
     background: url(https://imgur.com/S5b9bxM.png);
@@ -269,13 +269,13 @@ the CSS inline. */
 }
 .custom .stick.left{
   background: url(https://imgur.com/Bd89AfW.png);
-    top: 186px;
-    left: 94px;
+    top: 192px;
+    left: 98px;
 }
 .custom .stick.right{
   background: url(https://imgur.com/G12vQE0.png);
-    top: 186px;
-    left: 271px;
+    top: 192px;
+    left: 278px;
 }
 /* Dpad possitioning and sizing */
 /* .custom .dpad{
@@ -300,29 +300,29 @@ the CSS inline. */
 .custom .face.up{
   background: url(https://imgur.com/eqrrbur.png);
   position:absolute;
-  left: 26px;
-  top: 98px;
+  left: 28px;
+  top: 101px;
   opacity: 0;
 }
 .custom .face.down{
   background: url(https://imgur.com/eDNk6Ga.png);
   position:absolute;
-  left: 26px;
-  top: 150px;
+  left: 28px;
+  top: 154px;
   opacity: 0;
 }
 .custom .face.left{
   background: url(https://imgur.com/OwIcUk9.png);
   position:absolute;
-  left: -3px;
-  top: 128px;
+  left: -2px;
+  top: 130px;
   opacity: 0;
 }
 .custom .face.right{
   background: url(https://imgur.com/8O9QWiU.png);
   position:absolute;
   left: 49px;
-  top: 128px;
+  top: 130px;
   opacity: 0;
 }
 .custom .face.pressed{
@@ -334,7 +334,7 @@ the CSS inline. */
   height: 66px;
   position:absolute;
   left: 201px;
-  top: 205px;
+  top: 201px;
   opacity: 0;
 }
 
