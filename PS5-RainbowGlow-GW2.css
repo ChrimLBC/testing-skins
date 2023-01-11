@@ -175,8 +175,8 @@ start and select buttons. */
   width: 56px;
   height: 69px;
   position:absolute;
-  left: 78px;
-  top: 71px;
+  left: 76px;
+  top: 70px;
   opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
@@ -269,13 +269,13 @@ the CSS inline. */
 }
 .custom .stick.left{
   background: url(https://imgur.com/qfcIxaW.png);
-    top: 191px;
-    left: 95px;
+    top: 193px;
+    left: 99px;
 }
 .custom .stick.right{
   background: url(https://imgur.com/wvgkvJ6.png);
-    top: 191px;
-    left: 276px;
+    top: 193px;
+    left: 279px;
 }
 /* Dpad possitioning and sizing */
 /* .custom .dpad{
