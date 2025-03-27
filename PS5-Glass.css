@@ -162,7 +162,7 @@ start and select buttons. */
 } */
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .start{
-    background: url(https://imgur.com/4fjq5oF);
+    background: url(https://imgur.com/4fjq5oF.png);
     width: 71px;
     height: 54px;
     position:absolute;
@@ -171,7 +171,7 @@ start and select buttons. */
     opacity: 0;
 }
 .custom .back {
-  background: url(https://imgur.com/CnSszQU);
+  background: url(https://imgur.com/CnSszQU.png);
   width: 72x;
   height: 53px;
   position:absolute;
@@ -226,28 +226,28 @@ start and select buttons. */
     opacity: 1 !important;
 }
 .custom .a{
-    background: url(https://imgur.com/3fHtf76);
+    background: url(https://imgur.com/3fHtf76.png);
     left: 858px;
     top: 15px;
     width:72px;
     height:72px;
 }
 .custom .b{
-    background: url(https://imgur.com/EGLTHhz);
+    background: url(https://imgur.com/EGLTHhz.png);
     top: 10px;
     left: 983px;
     width:81px;
     height:81px;
 }
 .custom .y{
-  background: url(https://imgur.com/BvqQ2pU);
+  background: url(https://imgur.com/BvqQ2pU.png);
   top: 921px;
   left: 13px;
   width:76px;
     height:76px;
 }
 .custom .x{
-  background: url(https://imgur.com/Z8aWdh8);
+  background: url(https://imgur.com/Z8aWdh8.png);
   top: 1048px;
   left: 13px;
   width:82px;
@@ -270,7 +270,7 @@ the CSS inline. */
     width: 90px; */
 }
 .custom .stick.pressed.left{
-    background: url(https://imgur.com/MB5I4bW);
+    background: url(https://imgur.com/MB5I4bW.png);
     position: absolute;
     height: 76px;
     width: 65px;
@@ -278,7 +278,7 @@ the CSS inline. */
     left: 407px;
 }
 .custom .stick.pressed.right{
-    background: url(https://imgur.com/7dw22yy);
+    background: url(https://imgur.com/7dw22yy.png);
     position: absolute;
     height: 76px;
     width: 65px;
@@ -286,14 +286,14 @@ the CSS inline. */
     left: 799px;
 }
 .custom .stick.left{
-  background: url(https://imgur.com/I1Xludq);
+  background: url(https://imgur.com/I1Xludq.png);
     top: 17px;
     left: 480px;
     height: 69px;
     width: 69px;
 }
 .custom .stick.right{
-  background: url(https://imgur.com/I1Xludq);
+  background: url(https://imgur.com/I1Xludq.png);
     top: 17px;
     left: 725px;
     height: 69px;
@@ -320,7 +320,7 @@ the CSS inline. */
     height: 67px;
 }
 .custom .face.up{
-  background: url(https://imgur.com/xnAiSNk);
+  background: url(https://imgur.com/xnAiSNk.png);
   position:absolute;
   width: 64px;
   height: 67px;
@@ -329,7 +329,7 @@ the CSS inline. */
   opacity: 0;
 }
 .custom .face.down{
-  background: url(https://imgur.com/LdUcUlm);
+  background: url(https://imgur.com/LdUcUlm.png);
   position:absolute;
   width: 67px;
   height: 67px;
@@ -338,14 +338,14 @@ the CSS inline. */
   opacity: 0;
 }
 .custom .face.left{
-  background: url(https://imgur.com/Py6GR4E);
+  background: url(https://imgur.com/Py6GR4E.png);
   position:absolute;
   left: 152px;
   top: 17px;
   opacity: 0;
 }
 .custom .face.right{
-  background: url(https://imgur.com/V9lLrrq);
+  background: url(https://imgur.com/V9lLrrq.png);
   position:absolute;
   left: 341px;
   top: 17px;
