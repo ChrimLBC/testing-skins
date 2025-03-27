@@ -36,7 +36,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */
-    background: url(https://imgur.com/hyFhPFr);
+    background: url(https://imgur.com/hyFhPFr.png);
     height: 100px;
     width: 1270px;
 }
@@ -61,7 +61,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     position:absolute;
     left: 37px;
     top: 21px;
-    background: url(https://imgur.com/bYdKhbr);
+    background: url(https://imgur.com/bYdKhbr.png);
     opacity: 0;
 }
 
@@ -71,7 +71,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     position:absolute;
     left: 1178px;
     top: 21px;
-    background: url(https://imgur.com/3yMfmx3);
+    background: url(https://imgur.com/3yMfmx3.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -112,7 +112,7 @@ placement */
     position:absolute;
     left: 99px;
     top: 28px;
-    background: url(https://imgur.com/IDdMO92);
+    background: url(https://imgur.com/IDdMO92.png);
     opacity: 0;
 }
 .custom .bumper.right{
@@ -121,7 +121,7 @@ placement */
   position:absolute;
   left: 1129px;
   top: 28px;
-  background: url(https://imgur.com/SiMYF60);
+  background: url(https://imgur.com/SiMYF60.png);
   opacity: 0;
 }
 /* This bit of code is for the player indicator, which is represented in
@@ -185,7 +185,7 @@ start and select buttons. */
     opacity: 1 !important;
 }
 
-.custom .touchpad {
+/* .custom .touchpad {
   background: url(https://imgur.com/cTyZk7w.png);
   width: 216px;
   height: 137px;
@@ -193,11 +193,11 @@ start and select buttons. */
   left: 119px;
   top: 56px;
   opacity: 0;
-}
+} */
 
-.custom .touchpad.pressed {
+/* .custom .touchpad.pressed {
   opacity: 1 !important;
-}
+} */
 /* .custom .back{
     float: left;
     width: 38px;
@@ -354,7 +354,7 @@ the CSS inline. */
 .custom .face.pressed{
     opacity: 1 !important;
 }
-.custom .meta {
+/* .custom .meta {
   background: url(https://imgur.com/twZlCRt.png);
   width: 66px;
   height: 66px;
@@ -366,7 +366,7 @@ the CSS inline. */
 
 .custom .meta.pressed{
     opacity: 1 !important;
-}
+} */
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have
 the left and right triggers and digital buttons, there are separate
